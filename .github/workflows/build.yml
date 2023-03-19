@@ -37,7 +37,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
           tag_name: ${{ steps.vars.outputs.sha_short }}
-          release_name: 'Liquidambar ver/1.19.3 "${{ steps.vars.outputs.sha_short }}"'
+          release_name: 'Liquidambar ver/1.19.3-"${{ steps.vars.outputs.sha_short }}"'
           body: |
             This is a Auto-Release by GitHub Actions,
             **DO NOT** use it on production environment.
@@ -50,6 +50,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-          asset_path: ./build/libs/liquidambar-paperclip-1.19.3-R0.1-SNAPSHOT-reobf.jar
-          asset_name: liquidambar.jar
+          asset_path: build/libs/liquidambar-paperclip-1.19.3-R0.1-SNAPSHOT-reobf.jar
+          asset_name: Liquidambar.jar
           asset_content_type: application/java-archive
