@@ -54,7 +54,6 @@ subprojects {
         maven("https://repo.codemc.io/repository/maven-public/")
     }
 }
-
 paperweight {
     serverProject.set(project(":liquidambar-server"))
 

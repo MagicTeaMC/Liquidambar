@@ -1,0 +1,41 @@
+{
+  "vanillaJar": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\taskCache\\downloadServerJar.jar",
+  "remappedJar": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\taskCache\\minecraft.jar",
+  "decompiledJar": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\taskCache\\decompileJar.jar",
+  "mcVersion": "1.19.3",
+  "libDir": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\jars\\minecraft",
+  "libSourceDir": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\jars\\minecraft-sources",
+  "libFile": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\data\\bundler\\ServerLibraries.txt",
+  "spigotLibSourcesDir": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\jars\\spigot-sources",
+  "mappings": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\mappings\\spigot-mojang+yarn-patched.tiny",
+  "notchToSpigotMappings": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\mappings\\official-spigot.tiny",
+  "sourceMappings": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\mappings\\official-mojang+yarn.tiny",
+  "reobfPackagesToFix": [
+    "co.aikar.timings",
+    "com.destroystokyo.paper",
+    "com.mojang",
+    "io.papermc.paper",
+    "ca.spottedleaf",
+    "net.kyori.adventure.bossbar",
+    "net.minecraft",
+    "org.bukkit.craftbukkit",
+    "org.spigotmc"
+  ],
+  "reobfMappingsPatch": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\build-data\\reobf-mappings-patch.tiny",
+  "vanillaIncludes": [
+    "/*.class",
+    "/net/minecraft/**",
+    "/com/mojang/math/**"
+  ],
+  "paramMappings": {
+    "url": "https://repo.papermc.io/repository/maven-public/",
+    "coordinates": [
+      "net.fabricmc:yarn:1.19.3+build.1:mergedv2"
+    ]
+  },
+  "accessTransform": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\taskCache\\mergeAdditionalAts.at",
+  "spigotRecompiledClasses": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\taskCache\\spigotRecompiledClasses.txt",
+  "bundlerVersionJson": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\data\\bundler\\version.json",
+  "serverLibrariesTxt": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\data\\bundler\\ServerLibraries.txt",
+  "serverLibrariesList": "C:\\Users\\clps1\\Documents\\Liquidambar\\.gradle\\caches\\paperweight\\upstreams\\paper\\.gradle\\caches\\paperweight\\data\\bundler\\libraries.list"
+}
