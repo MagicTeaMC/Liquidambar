@@ -9,3 +9,4 @@ just a fork of Purpur
 - [ ] Add Lithium patch(Fusion)
 - [ ] Add C2ME patch(Fusion)
 - [ ] Optimize default configurations(Plazma/Mirai)
+- [ ] Dont-send-useless-entity-packets(Leaves)
