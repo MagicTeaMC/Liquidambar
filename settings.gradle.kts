@@ -5,6 +5,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Liquidambar"
+rootProject.name = "liquidambar"
 
 include("liquidambar-api", "liquidambar-server")
