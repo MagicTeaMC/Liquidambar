@@ -9,3 +9,9 @@ just a fork of Purpur
 - [ ] Add Lithium patch
 - [ ] Add C2ME patch
 - [ ] Dont-send-useless-entity-packets(Leaves)
+## Build from source
+In order to distribute and use this server software, you need a paperclip file:
+
+```bash
+./gradlew applyPatches && ./gradlew createReobfPaperclipJar
+```
