@@ -153,7 +153,7 @@ index 584596c8849b4dd7f955216f313eefb3229b375c..1cb3531bde143c875c1369034d10e034
  
  public final class CraftServer implements Server {
 -    private final String serverName = "Purpur"; // Paper // Purpur
-+    private final String serverName = "Purpur"; // Paper // Purpur // Liquidambar
++    private final String serverName = "Liquidambar"; // Paper // Purpur // Liquidambar
      private final String serverVersion;
      private final String bukkitVersion = Versioning.getBukkitVersion();
      private final Logger logger = Logger.getLogger("Minecraft");
