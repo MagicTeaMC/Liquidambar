@@ -1,0 +1,34 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: MagicTeaMC <oneowo87@gmail.com>
+Date: Sun, 19 Mar 2023 14:20:24 +0800
+Subject: [PATCH] Don't log offline mode warning
+
+
+diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
+index fd1b0564d2d2b45128e6f2556fb93ee56bd683b5..aae42b6e2c1350a3565b2896fdb202e0dc000087 100644
+--- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
++++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
+@@ -315,21 +315,8 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface
+         String proxyFlavor = (io.papermc.paper.configuration.GlobalConfiguration.get().proxies.velocity.enabled) ? "Velocity" : "BungeeCord";
+         String proxyLink = (io.papermc.paper.configuration.GlobalConfiguration.get().proxies.velocity.enabled) ? "https://docs.papermc.io/velocity/security" : "http://www.spigotmc.org/wiki/firewall-guide/";
+         // Paper end
+-        if (!this.usesAuthentication()) {
+-            DedicatedServer.LOGGER.warn("**** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!");
+-            DedicatedServer.LOGGER.warn("The server will make no attempt to authenticate usernames. Beware.");
+-            // Spigot start
+-            // Paper start
+-            if (usingProxy) {
+-                DedicatedServer.LOGGER.warn("Whilst this makes it possible to use " + proxyFlavor + ", unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.");
+-                DedicatedServer.LOGGER.warn("Please see " + proxyLink + " for further information.");
+-            // Paper end
+-            } else {
+-                DedicatedServer.LOGGER.warn("While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.");
+-            }
+-            // Spigot end
+-            DedicatedServer.LOGGER.warn("To change this, set \"online-mode\" to \"true\" in the server.properties file.");
+-        }
++
++        // Liquidambar - Don't log offline mode warning
+ 
+ 
+         if (!OldUsersConverter.serverReadyAfterUserconversion(this)) {
