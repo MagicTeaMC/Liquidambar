@@ -1,8 +1,16 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
-From: MagicTeaMC <oneowo87@gmail.com>
+From: peaches94 <peachescu94@gmail.com>
 Date: Sun, 26 Mar 2023 07:12:31 +0800
 Subject: [PATCH] Multithreaded Tracker
 
+This patch was ported downstream from the Petal fork, and is derived from
+the Airplane fork by Paul Sauve
+
+Based off the Airplane multithreaded tracker, this patch properly handles
+concurrent accesses everywhere, as well as being much simpler to maintain
+
+Some things are too unsafe to run off the main thread so we don't attempt to do
+that. This multithreaded tracker remains accurate, non-breaking and fast.
 
 diff --git a/src/main/java/io/papermc/paper/util/maplist/IteratorSafeOrderedReferenceSet.java b/src/main/java/io/papermc/paper/util/maplist/IteratorSafeOrderedReferenceSet.java
 index 0fd814f1d65c111266a2b20f86561839a4cef755..169ac3ad1b1e8e3e1874ada2471e478233c6ada7 100644
