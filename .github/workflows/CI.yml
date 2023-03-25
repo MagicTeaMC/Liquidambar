@@ -37,7 +37,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
           tag_name: ${{ steps.vars.outputs.sha_short }}
-          release_name: 'Brilliant ver/1.19 "${{ steps.vars.outputs.sha_short }}"'
+          release_name: 'Liquidambar ver/1.19.4 "${{ steps.vars.outputs.sha_short }}"'
           body: |
             This is a Auto-Release by GitHub Actions,
             **DO NOT** use it on production environment.
