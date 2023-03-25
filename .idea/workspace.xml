@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7162cda-fb49-47cf-8018-e34b84639d04" name="变更" comment="">
+    <list default="true" id="c7162cda-fb49-47cf-8018-e34b84639d04" name="变更" comment="fix Multithreaded Tracker again">
+      <change afterPath="$PROJECT_DIR$/patches/server/0004-fix-Multithreaded-Tracker-again.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidambar-server/src/main/java/net/minecraft/world/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server/src/main/java/net/minecraft/world/entity/Entity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679786063082</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix Multithreaded Tracker patch">
+      <created>1679786705296</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679786705296</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix Multithreaded Tracker again">
+      <created>1679786909533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679786909533</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +308,8 @@
     <MESSAGE value="update to 1.19.4" />
     <MESSAGE value="Multithreaded Tracker" />
     <MESSAGE value="add Multithreaded Tracker patch" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Multithreaded Tracker patch" />
+    <MESSAGE value="fix Multithreaded Tracker patch" />
+    <MESSAGE value="fix Multithreaded Tracker again" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix Multithreaded Tracker again" />
   </component>
 </project>
