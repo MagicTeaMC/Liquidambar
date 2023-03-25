@@ -12,9 +12,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/caches/paperweight/upstreams/upstreamDataPaper.json" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/caches/paperweight/upstreams/upstreamDataPaper.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/caches/paperweight/upstreams/upstreamDataPurpur.json" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/caches/paperweight/upstreams/upstreamDataPurpur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/liquidambar-server/liquidambar.liquidambar-server.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/liquidambar-server/liquidambar.liquidambar-server.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/liquidambar-server/liquidambar.liquidambar-server.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/liquidambar-server/liquidambar.liquidambar-server.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/liquidambar-api" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidambar-server" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="liquidambar" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="paperweight" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -62,6 +68,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,13 +86,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.Liquidambar [clean]">
+  <component name="RunManager" selected="Gradle.Liquidambar [rebuildPatches]">
     <configuration name="Liquidambar [applyPatches]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--scan" />
+        <option name="scriptParameters" value="--scan --stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -187,10 +194,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Liquidambar [clean]" />
-        <item itemvalue="Gradle.Liquidambar [createReobfPaperclipJar]" />
         <item itemvalue="Gradle.Liquidambar [rebuildPatches]" />
         <item itemvalue="Gradle.Liquidambar [applyPatches]" />
+        <item itemvalue="Gradle.Liquidambar [clean]" />
+        <item itemvalue="Gradle.Liquidambar [createReobfPaperclipJar]" />
         <item itemvalue="Gradle.Liquidambar [applyServerPatches]" />
       </list>
     </recent_temporary>
