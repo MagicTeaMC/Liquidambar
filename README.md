@@ -4,11 +4,9 @@
 A highly optimized Minecraft server software
 ## TODO
 - [ ] Multithreaded Tracker(Petal)
-- [ ] Remove Player Chat sign(Leaves)
-- [ ] Restore part of the original mechanism(Leaves)
 - [ ] Add Lithium patch
 - [ ] Add C2ME patch
-- [ ] Dont-send-useless-entity-packets(Leaves)
+- [ ] Add VMP patch
 ## Build from source
 In order to distribute and use this server software, you need a paperclip file:
 
