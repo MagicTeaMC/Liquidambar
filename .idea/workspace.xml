@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7162cda-fb49-47cf-8018-e34b84639d04" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+    <list default="true" id="c7162cda-fb49-47cf-8018-e34b84639d04" name="变更" comment="1.19.4 forgot to change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liquidambar-api" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/liquidambar-server" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidambar-server/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/liquidambar-server/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/liquidambar-server/src/main/java/org/bukkit/craftbukkit/util/Versioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server/src/main/java/org/bukkit/craftbukkit/util/Versioning.java" afterDir="false" />
     </list>
@@ -339,6 +333,7 @@
     <MESSAGE value="change something about Multithreaded Tracker" />
     <MESSAGE value="fix" />
     <MESSAGE value="lithium: fast util" />
-    <option name="LAST_COMMIT_MESSAGE" value="lithium: fast util" />
+    <MESSAGE value="1.19.4 forgot to change" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.19.4 forgot to change" />
   </component>
 </project>
