@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7162cda-fb49-47cf-8018-e34b84639d04" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/patches/api/0001-Optimize-Spigot-event-bus.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patches/api/0002-Smooth-Teleports.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patches/server/0004-lithium-HashedReferenceList.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patches/server/0005-lithium-fast-retrieval.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patches/server/0006-lithium-replace-AI-goal-set-with-optimized-collectio.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidambar-api" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidambar-server" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidambar-server/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liquidambar-server/src/main/java/org/bukkit/craftbukkit/util/Versioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/liquidambar-server/src/main/java/org/bukkit/craftbukkit/util/Versioning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="liquidambar" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="paperweight" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -68,7 +69,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/liquidambar-server" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -87,7 +88,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.Liquidambar [applyPatches]">
+  <component name="RunManager" selected="Gradle.Liquidambar [clean]">
     <configuration name="Liquidambar [applyPatches]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -195,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Liquidambar [clean]" />
+        <item itemvalue="Gradle.Liquidambar [createReobfPaperclipJar]" />
         <item itemvalue="Gradle.Liquidambar [applyPatches]" />
         <item itemvalue="Gradle.Liquidambar [rebuildPatches]" />
-        <item itemvalue="Gradle.Liquidambar [createReobfPaperclipJar]" />
         <item itemvalue="Gradle.Liquidambar [applyServerPatches]" />
-        <item itemvalue="Gradle.Liquidambar [clean]" />
       </list>
     </recent_temporary>
   </component>
