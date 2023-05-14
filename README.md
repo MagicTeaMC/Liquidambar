@@ -1,4 +1,6 @@
 # Liquidambar
+This is an experimental project
+**DO NOT** use it on production environment.
 [![Discord](https://img.shields.io/discord/891325967203729472?color=5865F2&label=discord&style=for-the-badge)](https://discord.gg/uQ4UXANnP2)
 ## About
 A highly optimized Minecraft server software
